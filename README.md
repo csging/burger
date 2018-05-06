@@ -1,1 +1,2 @@
-# burger
+# EAT THE THING
+I was really confused on this project, and similarly to last week I ran out of time to do this. My biggest takeaway from this project was understanding how handlebars work and the module.exports function. 

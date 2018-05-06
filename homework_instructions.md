@@ -24,7 +24,7 @@ Be sure to utilize the [MYSQL Heroku Deployment Guide](../Supplemental/MySQLHero
 
 #### App Setup
 
-1. Create a GitHub repo called `burger` and clone it to your computer.
+<!-- 1. Create a GitHub repo called `burger` and clone it to your computer.
 
 2. Make a package.json file by running `npm init` from the command line.
 
@@ -69,7 +69,7 @@ Be sure to utilize the [MYSQL Heroku Deployment Guide](../Supplemental/MySQLHero
 
    * Now insert the entries you defined in `seeds.sql` by running the file: `source seeds.sql`.
 
-   * Close out of the MySQL command line tool: `exit`.
+   * Close out of the MySQL command line tool: `exit`. -->
 
 #### Config Setup
 

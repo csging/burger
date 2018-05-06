@@ -1,0 +1,26 @@
+<div class="row">
+    <div class="col-sm-2 notEaten">
+        <h2>Your Foodz:</h2>
+        <form action ="/{{this.id}}?_method=DELETE" method="POST">
+        {{#each burgers}}
+        <p> {{this.id}}. {{this.burger_name}} <button type="submit" class="btn btn-secondary" id="devour">EAT THE THING</button></p>
+        {{/each}}
+        </form>
+    </div>
+    <div class="col-sm-2" id="burgerPic">
+        <img scr="assets/burger.png">
+        <h2>EAT THE THING</h2>
+        <div class="col-sm-2"></div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-2"></div>
+    </div>
+
+    <div class="col-sm-6" id="addBurger">
+        <form method="POST" action="/create">
+        <p>Enter the thing you want to eat and click "ADD THE THING"</p>
+        <button type="submit" class="btn btn-secondary" id="submit">ADD THE THING</button>       
+        </form>
+    </div>
+</div>
